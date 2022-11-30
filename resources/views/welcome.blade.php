@@ -20,6 +20,7 @@
         <div class="text-md font-semibold ">
             <ul class="flex gap-5">
                 <li><a href="{{url('/nim')}}">Tugas Route</a></li>
+                <li><a href="{{url('/views')}}">Tugas Views</a></li>
                 <li><a href="https://github.com/UlinnajaAldi" target="_blank">Github</a></li>
             </ul>
         </div>
