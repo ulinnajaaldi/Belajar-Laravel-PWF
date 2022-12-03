@@ -24,3 +24,15 @@ Route::get('/nim', function () {
 Route::get('/views', function () {
     return view('views');
 });
+
+Route::get('/views/mahasiswa', function () {
+    return view('datas.mahasiswa');
+});
+
+Route::get('/views/dosen', function () {
+    return view('datas.dosen');
+});
+
+Route::get('/views/galery', function () {
+    return view('datas.galery');
+});

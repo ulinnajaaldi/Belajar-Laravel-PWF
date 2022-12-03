@@ -19,17 +19,21 @@
         <h3 class="font-bold text-2xl"><a href="{{url('/')}}">Laravel</a></h3>
         <div class="text-md font-semibold ">
             <ul class="flex gap-5">
-                <li><a href="{{url('/')}}">< Back</a></li>
+                <li><a href="{{url('/views/mahasiswa')}}">Data Mahasiswa</a></li>
+                <li><a href="{{url('/views/galery')}}">Gallery</a></li>
+                <li><a href="{{url('/views')}}">< Back</a></li>
             </ul>
         </div>
     </nav>
     <div class="p-20">
-        <div class="bg-white text-white p-6 rounded-lg shadow-lg text-center">
-          <h2 class="text-2xl font-bold mb-2 text-gray-800">Aldilla Ulinnaja</h2>
-          <p class="text-gray-700">NIM - L200200090</p>
-          <p class="text-gray-700">Email - l200200090@student.ums.ac.id</p>
-          <p class="text-gray-700">Tanggal Lahir - 5 Agustus 2001</p>
-          <p class="text-gray-700">Alamat - Kota Salatiga, Jawa Tengah</p>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="font-bold text-xl">Data Dosen</h1>
+            <div class="p-3 ">
+                <p class="border py-3 px-20 m-2">Lorem Ipsum</p>
+                <p class="border py-3 px-20 m-2">Lorem Ipsum</p>
+                <p class="border py-3 px-20 m-2">Lorem Ipsum</p>
+                <p class="border py-3 px-20 m-2">Lorem Ipsum</p>
+            </div>
         </div>
     </div>
 </body>
